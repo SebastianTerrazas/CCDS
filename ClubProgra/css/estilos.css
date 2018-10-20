@@ -1,0 +1,145 @@
+* {
+	font-family: 'Inconsolata';
+}
+
+body {
+	background: url(../img/mapamundi4.png);
+	background-color: rgb(21, 156, 193, .4);
+	background-size: 90%;
+	background-attachment: scroll;
+	background-repeat: no-repeat;
+	background-position: 50px 1px;
+}
+
+a {
+	text-decoration: none;
+}
+
+/* ----- ----- MAIN ----- ----- */
+
+main nav .btn-menu {
+	display: inline-block;
+	width: 45px;
+	height: 45px;
+	border: 2px solid #ffffff;
+	background: transparent;
+	cursor: pointer;
+	font-size: 20px;
+	color: #fff;
+	margin-right: 20px;
+	transition: .3s ease all;
+	position: absolute;
+	left: .5%;
+	top: 1%;
+}
+
+/* ------------------------- */
+/* Pushbars: Estilos Generales */
+/* ------------------------- */
+.pushbar {
+	background: rgba(0, 0, 0, 0.85);
+	color: #fff;
+	padding: 20px;
+}
+.pushbar .btn-cerrar.derecha{
+	text-align: right;
+}
+.pushbar .btn-cerrar button{
+	background: none;
+	color: #808080;
+	border: none;
+	cursor: pointer;
+	font-size: 20px;
+}
+
+/* ----- ----- Pushbar: Menu de Navegacion ----- ----- */
+.pushbar-menu a{
+	display: block;
+	color: #AAAAAA;
+	padding: 20px 0;
+	border-bottom: 1px solid rgba(112, 112, 112, 0.6);
+	font-weight: 300;
+	font-size: 18px;
+	transition: .3s ease color;
+}
+
+.pushbar-menu a:hover{
+	color: #fff;
+}
+
+.ventana {
+	background-color: rgb(47, 47, 48, 0.99);
+	border-radius: 4px;
+	width: 75%;
+	height: 90%;
+	text-align: center;
+	position: absolute;
+	left: 20%;
+	top: 5%;
+}
+
+a {
+	fill: rgba(130, 135, 140, 1);
+}
+
+a:hover {
+	fill: #00B2FF;
+}
+/*
+.colorNoruega:hover path {
+	fill: rgb(201, 53, 53);
+}
+.colorEspaña:hover path {
+	fill: rgb(210, 166, 11);
+}
+.colorMexico:hover path {
+	fill: rgb(24, 110, 35);
+}
+.colorFrancia:hover path {
+	fill: rgb(10, 43, 117);
+}
+.colorEcuador:hover path {
+	fill: rgba(247, 251, 26, 1);
+}
+*/
+.botonMx {
+	position: absolute;
+	top: 36.3%;
+	left: 12.6%;
+	/*background-color: rgba(26, 26, 26, 0.56);*/
+}
+
+.botonEspaña {
+	position: absolute;
+	top: 29%;
+	left: 43.3%;
+}
+
+.botonNoruega {
+	position: absolute;
+	top: 11%;
+	left: 47.16%;
+}
+
+.botonFrancia {
+	position: absolute;
+	top: 23%;
+	left: 44.65%;
+}
+
+.botonEcuador {
+	position: absolute;
+	top: 58%;
+	left: 21%;
+}
+
+path {
+	stroke: black;
+}
+
+.etiquetaSvg {
+	position: absolute;
+	width: 98%;
+	height: 98%;
+	margin: 0;
+}

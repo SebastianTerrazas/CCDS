@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://fonts.googleapis.com/css?family=Roboto+Slab:300,400" rel="stylesheet">
+	<link rel="stylesheet" href="css/pushbar.css">
+	<link rel="stylesheet" href="css/estilos.css">
+	<title>CCDS Software</title>
+</head>
+<body>
+	<div class="contenedor">
+		<main>
+			<nav>
+				<button class="btn-menu" data-pushbar-target="pushbar-menu"><i class="fas fa-bars"></i></button>
+			</nav>
+		</main>
+		<!-- Pushbars: Menu -->
+		<div data-pushbar-id="pushbar-menu" class="pushbar from_left pushbar-menu">
+			<div class="btn-cerrar derecha">
+				<button data-pushbar-close><i class="fas fa-times"></i></button>
+			</div>
+			<nav class="menu">
+				<a href="#">Inicio</a>
+				<a href="#">Cuenta</a>
+				<a href="#">Contacto</a>
+			</nav>
+		</div>
+	</div>
+
+<svg class="etiquetaSvg">
+	        <a href="#" class="colorMexico" class="botonMx" id="BotonEjemplo">
+	          <path d=
+	                   "M 165 221
+	                   l 42 6
+	                   l 4 8
+	                   h 12
+	                   l 9 18
+	                   l -7 9
+	                   l 9 20
+	                   h 19
+	                   l 6 -11
+	                   h 8
+	                   v 7
+	                   l -8 7
+	                   h -6
+	                   l 2 7
+	                   h -8
+	                   l -3 5
+	                   l -7 -5
+	                   l -7 2
+	                   l -30 -13
+	                   l -19 -44
+	                   v -11
+	                   h -6
+	                   v 12
+	                   l 9 20
+	                   l -4 5
+	                   l -12 -21 Z"
+	                />
+	        </a>
+
+	<a href="#" class="colorNoruega" class="botonNoruega">
+	  <path d=
+	  "M 635.6 101
+	  l 49 -34
+	  l 13 -1
+	  v 3.8
+	  h -13
+	  l -26 19
+	  v 16
+	  l -3 5
+	  l -15 2
+	  Z"
+	  />
+  	</a>
+
+	<a href="#" class="colorFrancia" class="botonFrancia">
+	  <path d=
+	  "M 602 152
+	  h 7
+	  l 19 -11
+	  l 16 8
+	  l -4 18
+	  l 5 2
+	  v 8
+	  h -18
+	  l -4 5
+	  l -12 -9
+	  l -1 -13
+	  l -8 -4
+	  Z"
+	  />
+  	</a>
+
+	<a href="#" class="colorEspaña" class="botonEspaña">
+	  <path d=
+	  "M 583 174
+	  h 27
+	  l 13 8
+	  l -17 22
+	  l -17 -2
+	  l 2 -21
+	  l -10 -2
+	  Z"
+	  />
+  	</a>
+
+	<a href="#" class="colorEcuador" class="botonEcuador">
+	  <path d=
+	  "M 287 367.5
+	  l 8 -9
+	  l 16 8
+	  l -16 19
+	  l -9 -4
+	  Z"
+	  />
+  	</a>
+
+</svg>
+
+	<section id="window"></section>
+
+
+	<script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+	<script src="js/pushbar.js"></script>
+	<script>
+		var pushbar = new Pushbar({
+			blur: true,
+			overlay: true
+		});
+	</script>
+	<script src="js/codePrincipal.js"></script>
+</body>
+</html>
